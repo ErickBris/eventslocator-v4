@@ -1,0 +1,54 @@
+v4.0.4 - 13.01.2016
+- New app icon,
+- added support for Android Marshmallow permission request.
+
+v4.0.3 - 30.10.2015
+- Script now skips events that don't have location info.
+
+v4.0.2 - 25.10.2015
+- Bug fixes.
+
+v4.0.1 - 24.10.2015
+- Bug fixes.
+
+v4 - 23.10.2015
+- Admin panel for database management, 
+- security fixes, 
+- Facebook SDK version update, 
+- redesigned android app, 
+- removed notifications feature, 
+- updated dependencies, 
+- showing events on the map instead of Facebook pages, 
+- removed "add to calendar" and "navigation" buttons, 
+- removed PageActivity.
+
+v3 - 11.03.2015
+- Redesign to follow material guidelines,
+- notifications,
+- AdMob,
+- added calendar and facebook action intents,
+- page picture and cover,
+- voice search.
+
+v2.2 - 08.12.2014
+- Android Lollipop support,
+- new Lollipop theme,
+- timezone support,
+- bug fixes.
+
+
+v2.1.1 - 25.11.2014
+- Bug fix (Facebook event cover picture).
+
+
+v2.1 - 24.11.2014
+- New Facebook SDK (4.0.0),
+- updated documentation.
+
+
+v2 - 23.06.2014
+- New marker and app icon with PSB file included,
+- added in-app search option,
+- button 'zoom-in on my location' now appears only if user's location is available,
+- add.php now enables you to add Facebook Pages to database more easily,
+- some bug fixes.

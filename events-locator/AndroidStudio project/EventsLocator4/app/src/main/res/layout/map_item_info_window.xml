@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:padding="@dimen/info_window_padding"
+    tools:context="com.aleskovacic.eventslocator4.activities.MapsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/textBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingTop="@dimen/info_window_padding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/info_window_padding"
+        android:paddingTop="@dimen/info_window_padding">
+
+        <TextView
+            android:id="@+id/start_time"
+            style="@style/textNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_access_time_black_18dp"
+            android:drawablePadding="@dimen/info_window_padding"
+            android:drawableStart="@drawable/ic_access_time_black_18dp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/place"
+            style="@style/textNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_place_black_18dp"
+            android:drawablePadding="@dimen/info_window_padding"
+            android:drawableStart="@drawable/ic_place_black_18dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/card_padding_small"
+            android:paddingStart="@dimen/card_padding_small" />
+
+    </LinearLayout>
+
+</LinearLayout>

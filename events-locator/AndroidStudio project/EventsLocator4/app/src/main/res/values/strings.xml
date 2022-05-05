@@ -1,0 +1,33 @@
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-...</string>
+    <string name="maps_api_key">AIza...</string>
+
+    <string name="app_name">EventsLocator4</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+
+    <string name="navigation_sub_item_1">Today</string>
+    <string name="navigation_sub_item_2">This week</string>
+    <string name="navigation_sub_item_3">This month</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search events…</string>
+    <string name="share">Share</string>
+    <string name="join_on_fb">Join on Facebook</string>
+
+    <string name="hosted_by">Hosted by </string>
+    <string name="no_events">\u002B %1$d more events</string>
+    <string name="people_attending">%1$d people going</string>
+    <string name="sharing_url">Sharing URL</string>
+    <string name="share_url">Share URL</string>
+
+    <string name="snackbar_connection_failed">Connection to server failed</string>
+    <string name="snackbar_connection_failed_action">Network settings</string>
+    <string name="snackbar_permission_location_explanation">Location is required to show nearby events</string>
+    <string name="snackbar_permission_location_explanation_action">Try again</string>
+
+    <string name="cover_photo">Cover photo</string>
+    <string name="reminder">Reminder</string>
+    <string name="map">Map</string>
+</resources>
